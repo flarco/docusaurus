@@ -153,7 +153,7 @@ function Link(
       ref={innerRef}
       href={targetLink}
       {...(targetLinkUnprefixed &&
-        !isInternal && {target: '_blank', rel: 'noopener noreferrer'})}
+        !isInternal && {target: '_blank'})}
       {...props}
     />
   ) : (
